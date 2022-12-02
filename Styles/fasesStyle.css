@@ -272,3 +272,13 @@ a{
 }
 
 
+/* --- RESPONSIVE --- */
+
+/* PEQUEÑO */
+@media screen and (max-width: 768px) {
+
+    /* CABECERA */
+    #mcu{
+        font-size: 5vh;
+    }
+}

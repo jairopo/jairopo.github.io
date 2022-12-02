@@ -188,30 +188,6 @@ a{
         font-size: 5vh;
     }
 
-    .navegacion{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 20vh;
-    }
-
-    .navegacion>p{
-        text-align:justify;
-        margin: 15px;
-        font-size: 2.5vh;
-    }
-
-    .ppal{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin:5px;
-    }
-
-    div{
-        border: 1px solid black;
-    }
-
     .definicion{
         display:flex;
         flex-direction: column;

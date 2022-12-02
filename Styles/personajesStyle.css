@@ -228,3 +228,15 @@ a{
     color: #fff;
     font: 400 16px/1.1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
 }
+
+
+/* --- RESPONSIVE --- */
+
+/* PEQUEÑO */
+@media screen and (max-width: 768px) {
+
+    /* CABECERA */
+    #mcu{
+        font-size: 5vh;
+    }
+}
