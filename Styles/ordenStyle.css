@@ -205,17 +205,47 @@ a{
 
 /* ---- RESPONSIVE ---- */
 
-/* PEQUEÑO */
-@media screen and (max-width: 768px) {
+/* MEDIANO */
+@media screen and (max-width: 1400px) {
+
+    /* CABECERA */
+    #mcu{
+        font-size: 5vh;
+    }
 
     /* Descripción */
     .descripcion{
         padding: 10px 10px 0;
     }
 
-    /* CABECERA */
-    #mcu{
-        font-size: 5vh;
+    /* FECHA DE ESTRENO */
+    .estrenoPpal{
+        padding: 10px 5px 0;
+    }
+
+    .pelisEstreno{
+        width:25%;
+        font-size: 2vh;
+    }
+
+    /* ORDEN CRONÓLOGICO */
+    .cronologicoPpal{
+        padding: 10px 5px 0;
+    }
+
+    .pelisCrono{
+        width:28%;
+        font-size: 2vh;
+    }
+
+}
+
+/* PEQUEÑO */
+@media screen and (max-width: 768px) {
+
+    /* Descripción */
+    .descripcion{
+        padding: 10px 10px 0;
     }
 
     /* FECHA DE ESTRENO */

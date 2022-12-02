@@ -1,5 +1,6 @@
 Inicio:
 - video tamaño()
+- cosas comunes
 
 Fases: 
 - saltitos a partir de 1000?
@@ -7,15 +8,10 @@ Fases:
 - disponible más grande y letra chica? 
 
 Orden:
-- ocupar pantalla
-- mas grandes div
-- letra un poco más chica (wrap para letra)
+- mediano 
 
 Personajes:
-- ocupar pantalla
-- mas grandes div
-- letra bien?
-- menos margen
+- mediano porsi
 
 Sobreti:
 - flex column?

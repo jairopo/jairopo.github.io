@@ -199,13 +199,6 @@ a{
         animation-duration: 1s;
         animation-iteration-count: infinite;
     }
-
-    #wakandaTrailer{
-        margin:auto;
-        width: 80%;
-        height:50%;
-        border:5px solid #0E96E6;
-    }
 }
 
 /* MEDIANO */

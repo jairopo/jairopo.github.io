@@ -220,17 +220,23 @@ a{
 
 /* ---- RESPONSIVE ---- */
 
+
+/* MEDIANO */
+@media screen and (max-width: 1400px) {
+
+    /* CABECERA */
+    #mcu{
+        font-size: 5vh;
+    }
+
+}
+
 /* PEQUEÑO */
 @media screen and (max-width: 768px) {
 
     /* Descripción */
     .descripcion{
         padding: 10px 10px 0;
-    }
-
-    /* CABECERA */
-    #mcu{
-        font-size: 5vh;
     }
 
     /* HÉROES */
