@@ -220,7 +220,6 @@ a{
         display:flex;
         flex-direction: column;
         width:95%;
-        border: 1px solid #202020;
     }
 
     /* Novedad */
