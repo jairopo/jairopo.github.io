@@ -1,6 +1,5 @@
 Inicio:
-- ocupar toda la pantalla
-- novedad abajo - column
+- video tamaño()
 
 Fases: 
 - saltitos a partir de 1000?
