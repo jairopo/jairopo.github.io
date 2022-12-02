@@ -275,10 +275,108 @@ a{
 /* --- RESPONSIVE --- */
 
 /* PEQUEÑO */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
 
     /* CABECERA */
     #mcu{
         font-size: 5vh;
     }
+
+    /* Cuadros "proximamente" */
+    
+    .proxIzq{
+        width: 25%;
+        font-size: 1.5vh;
+    }
+
+    .proxDrch{
+        width: 25%;
+        font-size: 1.5vh;
+    }
+
+    .proxCentro{
+        width:50%;
+    }
+
+
+    /* Fases en movimiento */
+    .fasesDiv{
+        margin: 15%;
+    }
+
+    /* -F- */
+    .divF{
+        font-size:10vh;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 1s;
+    }
+
+    @keyframes moveF{
+        0%   {background-color:orange; left:0px; top:0px;}
+        50%  {background-color:green; left:0px; top:-160px;
+            transform: rotate(-360deg)}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+
+    /* -A- */
+    .divA{
+        font-size:10vh;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 2s;
+    }
+
+    @keyframes moveA{
+        0%   {background-color:blue; left:0px; top:0px;}
+        50%  {background-color:rgb(235, 108, 129); left:0px; top:-160px;
+            transform: rotate(-360deg)}
+        100% {background-color:orange; left:0px; top:0px;}
+    }
+
+    /* -S(1)- */
+    .divS1{
+        font-size:10vh;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 3s;
+    }
+
+    @keyframes moveS1{
+        0%    {background-color:green; left:0px; top:0px;}
+        50%  {background-color:red; left:0px; top:-160px;
+            transform: rotate(-360deg)}
+        100% {background-color:blue; left:0px; top:0px;}
+    }
+
+    /* -E- */
+    .divE{
+        font-size:10vh;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 4s;
+    }
+
+    @keyframes moveE{
+       0%   {background-color:rgb(235, 108, 129); left:0px; top:0px;} 
+       50%  {background-color:orange; left:0px; top:-160px;
+            transform: rotate(-360deg);}
+       100% {background-color:green; left:0px; top:0px;}
+    }
+
+    /* -S(2)- */
+    .divS2{
+        font-size:10vh;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-delay: 5s;
+    }
+
+    @keyframes moveS2{
+        0%   {background-color:red; left:0px; top:0px;} 
+        50%  {background-color:blue; left:0px; top:-160px;
+            transform: rotate(-360deg)} 
+        100% {background-color:rgb(235, 108, 129); left:0px; top:0px;} 
+    }
+
 }
