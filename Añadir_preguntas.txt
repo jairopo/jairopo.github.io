@@ -13,8 +13,7 @@ Personajes:
 - mediano (ya?)
 
 Sobreti:
-- flex column?
-- imagenes mas grandes?
+- 
 
 imágenes:
 - 

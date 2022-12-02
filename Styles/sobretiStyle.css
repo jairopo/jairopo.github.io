@@ -91,6 +91,22 @@ h3{
     text-align: center;
 }
 
+/* Pie de página */
+footer{
+    display: flex;
+    height:11vh;
+    justify-content: left;
+    background-color: #202020;
+    color:white;
+    padding: 30px;;
+}
+
+.contacto{
+    width: 100%;
+    height:100%;
+    font-size: 100%;
+}
+
 /* Enlances */
 a{
     text-decoration: none;
@@ -106,18 +122,22 @@ a{
 .fotoIzq{
     width: 20%;
     margin:5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hijoFoto{
     width: 98%;
     height: 50%;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /* Fotos derecha */
 .fotoDrch{
     width: 20%;
     margin:5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .imgRed{
@@ -136,6 +156,7 @@ a{
 .formulariosPadre{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 60%;
     height: 100%;
     margin:5px;
@@ -148,13 +169,8 @@ a{
     padding:5px;
 }
 
-.titulosForm{
-    display: flex;
-    flex-direction: row;
-}
-
 .hijosTituloForm{
-    width: 50%;
+    width: 100%;
     height: 50%;
 }
 
@@ -194,11 +210,13 @@ a{
     height: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .hijosAficiones{
     display: flex;
     flex-direction: row;
+    text-align: center;
     width: 100%;
     height: 100%;
     margin-top:20px;
@@ -260,14 +278,94 @@ a{
     margin-top:20px;
 }
  
+/* div{
+    border: 1px solid black;
+} */
 
 /* --- RESPONSIVE --- */ 
 
-/* PEQUEÑO */
-@media screen and (max-width: 768px) {
+/* MEDAINO */
+@media screen and (max-width: 1100px) {
 
     /* CABECERA */
     #mcu{
         font-size: 5vh;
     }
+
+    /* Div principal */
+    .ppal{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /* --- PÁGINA SOBRE TI --- */
+
+    /* Fotos izquierda */
+    .fotoIzq{
+        width: 100%;
+        flex-direction: row;  
+        align-items: center;      
+    }
+    
+    /* Fotos derecha */
+    .fotoDrch{
+        width: 100%;
+        flex-direction: row; 
+        align-items: center;
+    }
+
+    .imgRed{
+        width:80%;
+    }
+
+    .imgBlue{
+        width:80%; 
+    }
+
+    /* Formularios */
+    .formulariosPadre{
+        width: 100%;
+    }
+
+    .primerosFormularios{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Datos personales */
+    .datos{
+        width: 70%;
+        height: 50%;
+    }
+
+    .hijosDatos{
+        justify-content: space-around;
+    }
+
+    /* Aficiones */
+    .aficiones{
+        width: 70%;
+        height: 50%;
+    }
+
+    .hijosAficiones{
+        justify-content: space-around;
+    }
+
+    /* Gustos personales */
+    .gustos{
+        width: 70%;
+        height: 50%;
+    }
+
+    .hijoGustos{
+        justify-content: space-around;
+    }
+
+    /* Sugerencias */
+    .sugerencias{
+        width: 70%;
+        height: 50%;
+    }
+
 }
