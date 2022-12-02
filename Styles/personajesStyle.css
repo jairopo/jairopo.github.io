@@ -240,11 +240,11 @@ a{
 
     .heroesDiv{
         width:28%;
-        font-size: 2vh;
+        font-size: 1.9vh;
     }
 
     .nombreHeroe{
-        height: 60px;
+        height: 70px;
     }
 
     /* VILLANOS */
@@ -254,6 +254,10 @@ a{
 
     .villanoDiv{
         width:28%;
-        font-size: 2vh;
+        font-size: 1.9vh;
+    }
+
+    .nombreVillano{
+        height: 70px;
     }
 }
