@@ -10,7 +10,6 @@ Orden:
 - ocupar pantalla
 - mas grandes div
 - letra un poco más chica (wrap para letra)
-- menos margen
 
 Personajes:
 - ocupar pantalla

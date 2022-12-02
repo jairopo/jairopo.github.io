@@ -218,13 +218,42 @@ a{
 }
 
 
-/* --- RESPONSIVE --- */
+/* ---- RESPONSIVE ---- */
 
 /* PEQUEÑO */
 @media screen and (max-width: 768px) {
 
+    /* Descripción */
+    .descripcion{
+        padding: 10px 10px 0;
+    }
+
     /* CABECERA */
     #mcu{
         font-size: 5vh;
+    }
+
+    /* HÉROES */
+    .heroesPpal{
+        padding: 10px 5px 0;
+    }
+
+    .heroesDiv{
+        width:28%;
+        font-size: 2vh;
+    }
+
+    .nombreHeroe{
+        height: 60px;
+    }
+
+    /* VILLANOS */
+    .villanosPpal{
+        padding: 10px 5px 0;
+    }
+
+    .villanoDiv{
+        width:28%;
+        font-size: 2vh;
     }
 }
