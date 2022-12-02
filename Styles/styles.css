@@ -122,6 +122,26 @@ a{
 
 /* Div textos */
 .definicion{
+    flex-direction: column;
+    width:90%;
+    margin:10px;
+}
+
+/* Novedad */
+.novedad{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    margin:10px;
+    border: 5px solid #e62429;
+    background-color: rgba(243, 209, 106, 0.869);
+    animation-name: novedad;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+/* Div textos */
+.definicion{
     display:flex;
     flex-direction: column;
     width:60%;
@@ -170,118 +190,40 @@ a{
 
 /* --- RESPONSIVE --- */
 
-/* MEDIANO PARA ARRIBA */
-@media screen and (min-width: 1400px) {
-
-    .ppal{
-        flex-direction: row;
-    }
-
-    /* --- PÁGINA DE INICIO --- */
-
-    /* Div textos */
-    .definicion{
-        display:flex;
-        flex-direction: column;
-        width:90%;
-        margin:10px;
-    }
-
-    /* Novedad */
-    .novedad{
-        display: flex;
-        width: 40%;
-        flex-direction: column;
-        margin:10px;
-        border: 5px solid #e62429;
-        background-color: rgba(243, 209, 106, 0.869);
-        animation-name: novedad;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-    }
-}
-
 /* MEDIANO */
 @media screen and (max-width: 1400px) {
-
-    #mcu{
-        font-size: 6vh;
-    }
-
-    .ppal{
-        flex-direction: column;
-        height: 100%;
-        align-items: center;
-    }
-    /* --- PÁGINA DE INICIO --- */
-
-    /* Div textos */
-    .definicion{
-        display:flex;
-        flex-direction: column;
-        width:95%;
-    }
-
-    /* Novedad */
-    .novedad{
-        display: flex;
-        width: 55%;
-        flex-direction: column;
-        margin:10px;
-        border: 5px solid #e62429;
-        background-color: rgba(243, 209, 106, 0.869);
-        animation-name: novedad;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-    }
-
-}
-
-/* PEQUEÑO */
-@media screen and (max-width: 768px) {
-
-    .ppal{
-        flex-direction: column;
-        height: 100%;
-        align-items: center;
-    }
 
     #mcu{
         font-size: 5vh;
     }
 
-    .definicion{
-        display:flex;
+    .ppal{
         flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+
+    /* Div textos */
+    .definicion{
         width:95%;
     }
 
     /* Novedad */
     .novedad{
-        display: flex;
+        width: 55%;
+    }
+}
+
+/* PEQUEÑO */
+@media screen and (max-width: 768px) {
+
+    /* Novedad */
+    .novedad{
         width: 90%;
-        flex-direction: column;
-        margin:10px;
-        border: 5px solid #e62429;
-        background-color: rgba(243, 209, 106, 0.869);
-        animation-name: novedad;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
     }
 
     .hijoNov{
-        align-items: center;
-        justify-content: center;
-        text-align:justify;
-        margin: 15px;
+        margin: 5px;
         font-size: 2vh;
-    }
-
-    /* Trailer */
-    #wakandaTrailer{
-        margin:auto;
-        width: 80%;
-        height:50%;
-        border:5px solid #0E96E6;
     }
 }

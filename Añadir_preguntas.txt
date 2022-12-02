@@ -1,6 +1,5 @@
 Inicio:
 - video tamaño()
-- cosas comunes
 
 Fases: 
 - saltitos a partir de 1000?
@@ -8,10 +7,10 @@ Fases:
 - disponible más grande y letra chica? 
 
 Orden:
-- mediano 
+- mediano (ya?)
 
 Personajes:
-- mediano porsi
+- mediano (ya?)
 
 Sobreti:
 - flex column?
