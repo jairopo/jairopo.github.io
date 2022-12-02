@@ -1,13 +1,30 @@
-Añadir:
-- Terminar opciones formularios
+Inicio:
+- ocupar toda la pantalla
+- novedad abajo - column
 
 Fases: 
-- imagenes movimiento.
-- Fondo?
-- logo vengadores
+- saltitos a partir de 1000?
+- fases más pequeño
+- disponible más grande y letra chica? 
+
+Orden:
+- ocupar pantalla
+- mas grandes div
+- letra un poco más chica (wrap para letra)
+- menos margen
+
+Personajes:
+- ocupar pantalla
+- mas grandes div
+- letra bien?
+- menos margen
+
+Sobreti:
+- flex column?
+- imagenes mas grandes?
 
 imágenes:
-- eliminar el resto de img
+- 
 
 
 
