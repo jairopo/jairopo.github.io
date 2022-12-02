@@ -225,35 +225,10 @@ a{
 @media screen and (max-width: 768px) {
 
     /* CABECERA */
-    /* #mcu{
+    #mcu{
         font-size: 5vh;
     }
 
-    .navegacion{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 20vh;
-    }
-
-    .navegacion>p{
-        text-align:justify;
-        margin: 15px;
-        font-size: 2.5vh;
-    }
-
-    .ppal{
-        display: flex;
-        flex-direction: column;
-        margin:5px;
-    }
-
-    .ppal>p{
-        text-align:justify;
-        margin: 20px;
-        font-size: 2.5vh;
-    }
- */
     /* ORDEN ESTRENO */
     .pelisEstreno{
         width:25%;
