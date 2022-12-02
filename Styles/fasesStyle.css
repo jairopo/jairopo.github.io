@@ -384,14 +384,14 @@ a{
 
     /* Cuadros "proximamente" */
     
-    .proxIzq{
+    .proxIzq>p{
         width: 25%;
-        font-size: 1vh;
+        font-size: 2vh;
     }
 
-    .proxDrch{
+    .proxDrch>p{
         width: 25%;
-        font-size: 1h;
+        font-size: 2vh;
     }
 
     .proxCentro{
