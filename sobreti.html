@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre ti</title>
+    <link rel="stylesheet" href="./Styles/sobretiStyle.css">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1 id="mcu">MARVEL CINEMATIC UNIVERSE</h1>
+        </div>
+    </header>
+    
+    <!-- Barra de navegación -->
+    <nav class="navegacion">
+        <p><a href="./index.html" class="efectosnav">INICIO</a></p>
+        <p><a href="./fases.html" class="efectosnav">FASES</a></p>
+        <p><a href="./orden.html" class="efectosnav">ORDEN</a></p>
+        <p><a href="./personajes.html" class="efectosnav">PERSONAJES</a></p>
+        <p><a href="./sobreti.html"  class="efectosnav">SOBRE TI</a></p>
+    </nav>
+
+    <!-- Contenido -->
+    <section class="ppal">
+
+        <!-- Fotos izquierda -->
+        <article class="fotoIzq">
+            <div class="hijoFoto">
+                <img src="./images/sobretiImagenes/Stephen_Strange2.jpg" alt="Imagen Doctor Strange" class="imgRed">
+            </div>
+            <div class="hijoFoto">
+                <img src="./images/sobretiImagenes/scarlett2.jpg" alt="Imagen Viuda Negra" class="imgBlue">
+            </div>
+        </article>
+
+        <!-- Contenido del centro -->
+        <article class="formulariosPadre">
+
+
+            <div class="textoIntro">
+                <h1>SOBRE TI</h1>
+                <p>
+                    En este apartado puedes poner tus datos personales, rellenando tus gustos, 
+                    hobbies o aficiones así como dejarnos cualquier tipo de sugerencia para que podamos mejorar 
+                    la página, hacerla más accesible, intuitiva y que se adapte más a los gustos de nuestros 
+                    usuarios, los fanáticos de Marvel. La información que introduzcas a continuación será guardada 
+                    en una base de datos y no será compartida.
+                </p>
+            </div>
+
+            <div class="titulosForm">
+                <div class="hijosTituloForm">
+                    <h3>Datos Personales</h3>
+                </div>
+                <div class="hijosTituloForm">
+                    <h3>Sugerencias</h3>
+                </div>
+            </div>
+
+            <div class="primerosFormularios">
+
+                <!-- Datos personales -->
+                <div class="datos">
+                    <div class="hijosDatos">
+                        <div clas="formDatos">
+                            <form>
+                                <label for="nombre">Nombre:</label><br>
+                                <input type="text" id="nombre" name="nombre" placeholder="Jairo"><br>
+                                <label for="apellidos">Apellidos:</label><br>
+                                <input type="text" id="apellidos" name="apellidos" placeholder="Andrades Bueno"><br><br>
+                                <input type="submit" value="Enviar">
+                            </form> 
+                        </div>
+                        
+                        <div clas="formDatos">
+                            <form>
+                                <label for="Usuario">Usuario:</label><br>
+                                <input type="text" id="usuario" name="usuario" placeholder="Jairopo"><br>
+                                <label for="contraseña">Contraseña:</label><br>
+                                <input type="password" id="contraseña" name="contraseña" placeholder="12345678"><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="hijosDatos">
+                        <div clas="formDatos">
+                            <form>
+                                <form>
+                                    <label for="email">Correo electrónico:</label><br>
+                                    <input type="email" id="email" name="email" placeholder="jairo.po8@gmail.com" required><br><br>
+                                    <input type="submit" value="Enviar">
+                                </form>
+                            </form> 
+                        </div>
+                        
+                        <div clas="formDatos">
+                            <form>
+                                <label for="telefono">Teléfono:</label><br>
+                                <input type="tel" id="telefono" name="telefono" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Sugerencias -->
+                <div class="sugerencias">
+                    <div class="formSug">
+                        <form>
+                            <textarea name="message" placeholder="Ejemplo: Estaría bien si añadieras un apartado para dar 'like' a la película que más nos guste." rows="10" cols="50"></textarea>
+                            <br><br>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Restablecer">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="hrForm">
+
+            <div class="titulosForm">
+                <div class="hijosTituloForm">
+                    <h3>Gustos Personales</h3>
+                </div>
+                <div class="hijosTituloForm">
+                    <h3>Aficiones</h3>
+                </div>
+            </div>
+
+            <div class="primerosFormularios">
+
+                <!-- Gustos personales -->
+                <div class="gustos">
+                    <div class="hijoGustos">
+                        <div class="formGustos">
+                            <form>
+                                <label for="mascotas">Cuál es tu mascota preferida:</label><br>
+                                <select id="mascotas" name="mascotas" size="6">
+                                  <option value="perro">Perro</option>
+                                  <option value="gato">Gato</option>
+                                  <option value="hamster">Hamster</option>
+                                  <option value="huron">Hurón</option>
+                                  <option value="conejo">Conejo</option>
+                                  <option value="tortuga">Tortuga</option>
+                                  <option value="pez">Pez</option>
+                                  <option value="cobaya">Cobaya</option>
+                                  <option value="pulpo">Pulpo</option>
+                                  <option value="pajaro">Pájaro</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+                        
+                        <div class="formGustos">
+                            <form>
+                                <label for="peliculas">Cuál es tu película preferida:</label><br>
+                                <select id="peliculas" name="peliculas" size="6">
+                                  <option value="infinity">Vengadores: Infinity War</option>
+                                  <option value="endgame">Vengadores: Endgame</option>
+                                  <option value="ultron">Vengadores: La Era de Ultrón</option>
+                                  <option value="vengadores1">Los Vengadores (La primera)</option>
+                                  <option value="thorRagnarok">Thor Ragnarok</option>
+                                  <option value="Guardianes2">Guardianes de la Galaxia 2</option>
+                                  <option value="panther">Black Panther(1)</option>
+                                  <option value="wadavision">Vision y la bruja escarlata</option>
+                                  <option value="whatIf">What if...?</option>
+                                  <option value="strange">Dc. Strange: Multiverse of Madness</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="hijoGustos">
+                        <div class="formGustos">
+                            <form>
+                                <label for="personajes">Cuál es tu personaje preferido:</label><br>
+                                <select id="personajes" name="personajes" size="6">
+                                  <option value="ironman">Iron Man</option>
+                                  <option value="capitan">Capitán América</option>
+                                  <option value="thor">Thor</option>
+                                  <option value="strange">Dc. Strange</option>
+                                  <option value="spider">Spider-Man</option>
+                                  <option value="wanda">Bruja Escarlata</option>
+                                  <option value="vision">Vision</option>
+                                  <option value="hulk">Hulk</option>
+                                  <option value="panther">Black Panther</option>
+                                  <option value="falcon">Falcon</option>
+                                  <option value="antman">Ant-Man</option>
+                                  <option value="viuda">La Viuda Negra</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+
+                        <div class="formGustos">
+                            <form>
+                                <label for="comidas">Cuál es tu comida preferida:</label><br>
+                                <select id="comidas" name="comidas" size="6">
+                                  <option value="pizza">Pizza</option>
+                                  <option value="hamburguesa">Hamburguesa</option>
+                                  <option value="pasta">Pasta</option>
+                                  <option value="verduras">Verduras</option>
+                                  <option value="paella">Paella</option>
+                                  <option value="puchero">Puchero</option>
+                                  <option value="croquetas">Croquetas</option>
+                                  <option value="tortilla">Tortilla</option>
+                                  <option value="croquetas">Albóndigas</option>
+                                  <option value="solomillo">Solomillo</option>
+                                </select><br><br>
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Aficiones -->
+                <div class="aficiones">
+                    <div class="hijosAficiones">
+                        <div class="formAficiones">
+                            <h4>Deportes</h4>
+                            <form>
+                                <input type="checkbox" id="deporte1" name="deporte1" value="futbol">
+                                <label for="deporte1"> Fútbol</label><br>
+                                <input type="checkbox" id="deporte2" name="deporte2" value="baloncesto">
+                                <label for="deporte2"> Baloncesto</label><br>
+                                <input type="checkbox" id="deporte3" name="deporte3" value="voleibol">
+                                <label for="deporte3"> Voleibol</label><br>
+                                <input type="checkbox" id="deporte4" name="deporte4" value="tenis">
+                                <label for="deporte4"> Tenis</label><br>
+                                <input type="checkbox" id="deporte5" name="deporte5" value="padel">
+                                <label for="deporte5"> Padel</label><br>
+                                <input type="checkbox" id="deporte6" name="deporte6" value="otroDept">
+                                <label for="deporte6"> Otro</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                        <div class="formAficiones">
+                            <h4>Videojuegos</h4>
+                            <form>
+                                <input type="checkbox" id="juego1" name="juego1" value="cod">
+                                <label for="juego1"> COD</label><br>
+                                <input type="checkbox" id="juego2" name="juego2" value="gtaV">
+                                <label for="juego2"> GTA V</label><br>
+                                <input type="checkbox" id="juego3" name="juego3" value="fortnite">
+                                <label for="juego3"> Fortnite</label><br>
+                                <input type="checkbox" id="juego4" name="juego4" value="minecraft">
+                                <label for="juego4"> Minecraft</label><br>
+                                <input type="checkbox" id="juego5" name="juego5" value="uncharted">
+                                <label for="juego5"> Uncharted</label><br>
+                                <input type="checkbox" id="juego6" name="juego6" value="otroJuego">
+                                <label for="juego6"> Otro</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="hijosAficiones">
+                        <div class="formAficiones">
+                            <h4>Arte</h4>
+                            <form>
+                                <input type="checkbox" id="arte1" name="arte1" value="musica">
+                                <label for="arte1"> Música</label><br>
+                                <input type="checkbox" id="arte2" name="arte2" value="danza">
+                                <label for="arte2"> Danza</label><br>
+                                <input type="checkbox" id="arte3" name="arte3" value="pintura">
+                                <label for="arte3"> Pintura</label><br>
+                                <input type="checkbox" id="arte4" name="arte4" value="cine">
+                                <label for="arte4"> Cine</label><br>
+                                <input type="checkbox" id="arte5" name="arte5" value="literatura">
+                                <label for="arte5"> Literatura</label><br>
+                                <input type="checkbox" id="arte6" name="arte6" value="otroArte">
+                                <label for="arte6"> Otro</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                        <div class="formAficiones">
+                            <h4>Otros</h4>
+                            <form>
+                                <input type="checkbox" id="tele" name="tele" value="tele">
+                                <label for="tele"> Ver la tele</label><br>
+                                <input type="checkbox" id="cocinar" name="cocinar" value="cocinar">
+                                <label for="cocinar"> Cocinar</label><br>
+                                <input type="checkbox" id="cuidadora" name="cuidadora" value="cuidadora">
+                                <label for="cuidadora"> Cuidar animales</label><br>
+                                <input type="checkbox" id="programar" name="programar" value="programar">
+                                <label for="programar"> Programar</label><br>
+                                <input type="checkbox" id="meditar" name="meditar" value="meditar">
+                                <label for="meditar"> Meditar</label><br>
+                                <input type="checkbox" id="magia" name="magia" value="magia">
+                                <label for="magia"> Hacer magia</label><br><br>
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- Fotos derecha -->
+        <article class="fotoDrch">
+            <div class="hijoFoto">
+                <img src="./images/sobretiImagenes/ironman.jpg" alt="Imagen Ironman" class="imgBlue">
+            </div>
+            <div class="hijoFoto">
+                <img src="./images/sobretiImagenes/wanda3.jpg" alt="Imagen Bruja Escarlata" class="imgRed">
+            </div>
+            </article>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="contacto">
+            <h4>Datos de contacto:</h4><br>
+            <ul>
+                <li>Teléfono: 600 000 001</li> <!-- Número de teléfono inventado -->
+                <li>Correo electrónico: a_jairo.andrades.bueno@iespablopicasso.es</li>
+                <li>GitHub: <a href="https://github.com/jairopo" class="enlaces">https://github.com/jairopo</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

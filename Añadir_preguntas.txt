@@ -1,0 +1,13 @@
+Añadir:
+- Terminar opciones formularios
+
+Fases: 
+- imagenes movimiento.
+- Fondo?
+- logo vengadores
+
+imágenes:
+- eliminar el resto de img
+
+
+

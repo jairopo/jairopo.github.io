@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:blanchedalmond;
+}
+
+/* Cabecera */
+header{
+    height:18vh;
+    background-image: url(../images/banner-logo-marvel-8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header:hover{
+    background-image: none;
+}
+
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color:white;
+    background-color:#e62429;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px black;
+}
+
+.titulo:hover{
+    opacity: 100;
+}
+
+#mcu{
+    font-size: 8vh;
+}
+
+/* Barra de navegación */
+.navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    background-color: #202020;
+    height:125%;
+}
+
+.navegacion>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
+}
+
+.efectosnav{
+    border:1px solid white;
+    padding:5px;
+    background-color:#e62429;
+    border-radius: 20px;
+    color:white;
+    font-size:150%;
+    align-items: center;
+}
+
+.efectosnav:hover{
+    background-color: #0E96E6;
+    color:#202020;
+}
+
+/* Div principal */
+.ppal{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.ppal>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
+}
+
+/* Títulos(h?) */
+h1{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 3vh;
+}
+
+h3{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 3vh;
+
+}
+
+/* Pie de página */
+footer{
+    display: flex;
+    height:11vh;
+    justify-content: left;
+    background-color: #202020;
+    color:white;
+    padding: 30px;;
+}
+
+.contacto{
+    width: 100%;
+    height:100%;
+    font-size: 100%;
+}
+
+/* Enlances */
+a{
+    text-decoration: none;
+
+}
+.enlaces {
+    color:#0E96E6;
+}
+
+/* --- ORDEN --- */
+
+/* Descripción */
+.descripcion{
+    padding: 10px 50px 0;
+}
+
+.hijoDesc{
+    border: 5px solid #0E96E6;
+}
+
+.hijoDesc>p{
+    text-align:justify;
+    margin: 20px;
+    font-size: 2.5vh;
+}
+
+/* FECHA DE ESTRENO */
+.estrenoPpal{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 0;
+}
+
+.tituloEstreno{
+    width:100%;
+}
+
+.hijoEstreno{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pelisEstreno{
+    width:15%;
+    margin:5px;
+    border:3px solid black;
+    font-size: 2.5vh;
+    color: #151515;
+    background-color: white;
+}
+
+.pelisEstreno:hover{
+    transform: scale(0.9);
+    color:#e62429;
+}
+
+.imagenesEstreno{
+    width: 100%;
+    height: 100%;
+}
+
+/* ORDEN CRONÓLOGICO */
+.cronologicoPpal{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 0;
+}
+
+.tituloCrono{
+    width:100%;
+}
+
+.hijoCrono{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pelisCrono{
+    width:15%;
+    margin:5px;
+    border:3px solid black;
+    font-size: 2.5vh;
+    color: #151515;
+    background-color: white;
+}
+
+.pelisCrono:hover{
+    transform: scale(0.9);
+    color:#0E96E6;
+}
+
+.imagenesCrono{
+    width: 100%;
+    height: 100%;
+}
+
+/* div{
+    border:1px solid black;
+} */
+
+/* ---- RESPONSIVE ---- */
+
+/* PEQUEÑO */
+@media screen and (max-width: 768px) {
+
+    /* CABECERA */
+    #mcu{
+        font-size: 5vh;
+    }
+
+    .navegacion{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 20vh;
+    }
+
+    .navegacion>p{
+        text-align:justify;
+        margin: 15px;
+        font-size: 2.5vh;
+    }
+
+    .ppal{
+        display: flex;
+        flex-direction: column;
+        margin:5px;
+    }
+
+    .ppal>p{
+        text-align:justify;
+        margin: 20px;
+        font-size: 2.5vh;
+    }
+
+    /* ORDEN ESTRENO */
+    .pelisEstreno{
+        width:25%;
+        margin:5px;
+        border:3px solid black;
+        font-size: 2.5vh;
+        color: #151515;
+    }
+
+    /* ORDEN CRONOLÓGICO */
+    .pelisCrono{
+        width:25%;
+        margin:5px;
+        border:3px solid black;
+        font-size: 2.5vh;
+        color: #151515;
+    }
+
+
+}
