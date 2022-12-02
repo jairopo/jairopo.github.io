@@ -225,7 +225,7 @@ a{
 @media screen and (max-width: 768px) {
 
     /* CABECERA */
-    #mcu{
+    /* #mcu{
         font-size: 5vh;
     }
 
@@ -253,7 +253,7 @@ a{
         margin: 20px;
         font-size: 2.5vh;
     }
-
+ */
     /* ORDEN ESTRENO */
     .pelisEstreno{
         width:25%;
