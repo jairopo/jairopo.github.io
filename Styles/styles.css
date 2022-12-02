@@ -199,6 +199,13 @@ a{
         animation-duration: 1s;
         animation-iteration-count: infinite;
     }
+
+    #wakandaTrailer{
+        margin:auto;
+        width: 80%;
+        height:50%;
+        border:5px solid #0E96E6;
+    }
 }
 
 /* MEDIANO */
@@ -220,6 +227,7 @@ a{
         display:flex;
         flex-direction: column;
         width:95%;
+        border: 1px solid #202020;
     }
 
     /* Novedad */
@@ -253,7 +261,7 @@ a{
     .definicion{
         display:flex;
         flex-direction: column;
-        width:90%;
+        width:95%;
     }
 
     /* Novedad */
