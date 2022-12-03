@@ -114,7 +114,7 @@ a{
 .proxIzq{
     text-align:center;
     width: 10%;
-    height: 80px;
+    height: 5%;
     margin-left: 10px;
     font-size: 2vh;
     border: 1px solid black;
@@ -126,7 +126,7 @@ a{
 .proxDrch{
     text-align:center;
     width: 10%;
-    height: 80px;
+    height: 5%;
     margin-right: 10px;
     font-size: 2vh;
     border: 1px solid black;
@@ -284,11 +284,15 @@ a{
 
     .proxIzq{
         width: 20%;
+    }
+    .proxIzq>p{
         font-size: 1.75vh;
     }
 
     .proxDrch{
         width: 20%;
+    }
+    .proxDrch>p{
         font-size: 1.75vh;
     }
 
@@ -384,13 +388,17 @@ a{
 
     /* Cuadros "proximamente" */
     
-    .proxIzq>p{
+    .proxIzq{
         width: 25%;
+    }
+    .proxIzq>p{
         font-size: 1.75vh;
     }
 
-    .proxDrch>p{
+    .proxDrch{
         width: 25%;
+    }
+    .proxDrch>p{
         font-size: 1.75vh;
     }
 
