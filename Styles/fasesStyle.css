@@ -284,6 +284,7 @@ a{
 
     .proxIzq{
         width: 20%;
+        height: 3%;
     }
     .proxIzq>p{
         font-size: 1.75vh;
@@ -291,6 +292,7 @@ a{
 
     .proxDrch{
         width: 20%;
+        height: 3%;
     }
     .proxDrch>p{
         font-size: 1.75vh;
@@ -390,16 +392,18 @@ a{
     
     .proxIzq{
         width: 25%;
+        height: 3%;
     }
     .proxIzq>p{
-        font-size: 1.75vh;
+        font-size: 1.5vh;
     }
 
     .proxDrch{
         width: 25%;
+        height: 3%;
     }
     .proxDrch>p{
-        font-size: 1.75vh;
+        font-size: 1.5vh;
     }
 
     .proxCentro{

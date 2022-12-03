@@ -2,9 +2,7 @@ Inicio:
 - video tamaño()
 
 Fases: 
-- saltitos a partir de 1000?
 - fases más pequeño
-- disponible más grande y letra chica? 
 
 Orden:
 - mediano (ya?)
