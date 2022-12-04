@@ -153,7 +153,6 @@ a{
 
 .heroesDiv:hover{
     transform: scale(0.9);
-    color:#e62429;
 }
 
 .fotoHeroe{
@@ -199,9 +198,8 @@ a{
     background-color: #151515;
 }
 
-.heroesDiv:hover{
+.villanoDiv:hover{
     transform: scale(0.9);
-    color:#e62429;
 }
 
 .fotoVillano{
